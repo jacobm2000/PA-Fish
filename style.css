@@ -3,8 +3,34 @@
     display: block;
     border:none;
     text-align: center;
+    
 }
+
+.card-text{
+    height: 10rem;
+}
+
 .card-img-top{
     width: 20rem;
     height: 10rem;
+}
+
+@media only screen and (max-width: 800px) {
+    .card-text{
+    height:auto;
+    }
+    .card-img-top{
+        width: 10rem;
+        height: 5rem;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+    .card-text{
+    height:20rem
+    }
+    .card-img-top{
+        width: 10rem;
+        height: 5rem;
+  }
 }

@@ -11,30 +11,43 @@
 <body class>
     <!-- NavBar-->
 <nav class="navbar navbar-dark bg-primary">
-    <a class="navbar-brand" href="#">
+    <span class="navbar-brand">
          Game Fish of
       <img src="./images/PA.png" width="30" height="30" class="d-inline-block align-top" alt="">
-    </a>
+    </span>
   </nav>
   
   
     
     <!-- Card Row 1-->
-    <div class="card-group m-5">
+    <div class="card-group md m-5">
         <div class="card bass">
           <img class="card-img-top" src="./images/largemouthbass.jpg" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Largemouth Bass</h5>
             <p class="card-text">The largemouth bass is a carnivorous freshwater gamefish in the Centrarchidae family, a species of black bass native to the eastern and central United States, southeastern Canada and northern Mexico, but widely introduced elsewhere.</p>
-    
+            <p class="collapse " id="collapseOne"> 
+                <b>Jan 1-Apr 7 and Oct 1-Dec 31:</b><br> 4 fish limit(Largemouth, Smallmouth, and Spotted)<br>
+                <b>April 8 - June 9:</b> No Harvest<br>
+                <b>June 10 - September 30: </b><br>12 inches, 6 fish limit(Largemouth, Smallmouth, and Spotted )
+            </p>
+            <button class="btn btn-primary" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Show Regulations
+              </button>
+            
           </div>
         </div>
+
         <div class="card pike">
           <img class="card-img-top" src="./images/chainpickerel.png" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Chain Pickerel</h5>
             <p class="card-text">The chain pickerel is a species of freshwater fish in the pike family of order Esociformes. The chain pickerel and the American pickerel belong to the Esox genus of pike.</p>
-         
+            <p class=" collapse " id="collapseTwo"> Placeholder</p>
+            <button class="btn btn-primary" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">
+                Show Regulations
+              </button>
+            
           </div>
         </div>
         <div class="card catfish">
@@ -42,7 +55,10 @@
           <div class="card-body">
             <h5 class="card-title">Channel Catfish</h5>
             <p class="card-text">The channel catfish is North America's most numerous catfish species. It is the official fish of Kansas, Missouri, Nebraska, and Tennessee, and is informally referred to as a "channel cat". In the United States, they are the most fished catfish species with around 8 million anglers targeting them per year. </p>
-          
+            <p class="collapse " id="collapseThree"> Placeholder</p>
+            <button class="btn btn-primary" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseOne">
+                Show Regulations
+              </button>
           </div>
         </div>
       </div>
@@ -54,7 +70,10 @@
           <div class="card-body">
             <h5 class="card-title">Smallmouth Bass</h5>
             <p class="card-text">The smallmouth bass is a species of freshwater fish in the sunfish family of the order Perciformes. It is the type species of its genus Micropterus, and is a popular game fish sought by anglers.</p>
-          
+            <p class=" collapse " id="collapseFour"> Placeholder</p>
+            <button class="btn btn-primary" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne">
+                Show Regulations
+              </button>
           </div>
         </div>
         <div class="card fresh">
@@ -62,7 +81,10 @@
           <div class="card-body">
             <h5 class="card-title">Yellow Perch</h5>
             <p class="card-text">The yellow perch, commonly referred to as perch, striped perch, American perch, American river perch or preacher is a freshwater perciform fish native to much of North America. The yellow perch was described in 1814 by Samuel Latham Mitchill from New York.</p>
-           
+            <p class="collapse " id="collapseFive">Placeholder</p>
+            <button class="btn btn-primary" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseOne">
+                Show Regulations
+              </button>
           </div>
         </div>
         <div class="card salt">
@@ -70,7 +92,10 @@
           <div class="card-body">
             <h5 class="card-title">Crappie</h5>
             <p class="card-text">Crappies are two species of North American freshwater fish of the genus Pomoxis in the family Centrarchidae. Both species of crappies are popular game fish among recreational anglers. </p>
-            
+            <p class="collapse " id="collapseSix"> Placeholder</p>
+            <button class="btn btn-primary" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseOne">
+                Show Regulations
+              </button>
           </div>
         </div>
       </div>
