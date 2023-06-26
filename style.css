@@ -1,5 +1,6 @@
 .card{
     align-items: center;
+    display: block;
     border:none;
     text-align: center;
 }
