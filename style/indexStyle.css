@@ -23,7 +23,7 @@ footer{
 }
 
 
-@media only screen and (max-width: 399px) {
+@media only screen and (max-width: 498px) {
     .card-text{
     height:auto;
     font-size: 80%;
@@ -33,7 +33,7 @@ footer{
         height: 5rem;
   }
 }
-@media only screen and (max-width: 499px) and (max-width: 569px)  {
+@media only screen and (min-width: 499px) and (max-width: 569px)  {
     .card-text{
         height:auto;
         font-size: 80%;
