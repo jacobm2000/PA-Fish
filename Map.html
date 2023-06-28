@@ -7,17 +7,31 @@
     <link rel="icon" href="./images/PA.png">
     <title>Fishing Locations</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="styleMap.css">
+    <link rel="stylesheet" href="./style/mapStyle.css">
 </head>
 <body>
-    <nav class="navbar navbar-dark bg-primary">
-        <span class="navbar-brand">
-             Game Fish of
-          <img src="./images/PA.png" width="30" height="30" class="d-inline-block align-top" alt="">
-          <a class="text-light ml-5" href="index.html">Fish Info</a>
-          <a class="text-light ml-5" href="">Best Lakes</a>
-        </span>
-      </nav>
+    <!-- NavBar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <span class="navbar-brand">
+        Game Fish of
+     <img src="./images/PA.png" width="30" height="30" class="d-inline-block align-top" alt="">
+     </span>
+     
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Fish Info <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Fishing Locations</a>
+   
+        </ul>
+      </div>
+    </nav>
+  
       
 <p id="currLake">Current Lake: Lake Wallenpaupack</p>
 <div class="frame">
@@ -30,7 +44,7 @@ src="https://www.openstreetmap.org/export/embed.html?bbox=-75.34852981567384%2C4
 
 <div class="card-group mt-5">
     <div class="card" style="width: 18rem;">
-        <img class="card-img-top rounded-circle" src="./images/lake erie.jpg" alt="Card image cap">
+        <img class="card-img-top " src="./images/lake erie.jpg" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Lake Erie</h5>
           <p class="card-text">Lake Erie is the fourth-largest lake by surface area of the five Great Lakes in North America and the eleventh-largest globally. 
@@ -41,7 +55,7 @@ src="https://www.openstreetmap.org/export/embed.html?bbox=-75.34852981567384%2C4
 
 
       <div class="card" style="width: 18rem;">
-        <img class="card-img-top rounded-circle" src="./images/lake wallenpaupack.jpg" alt="Card image cap">
+        <img class="card-img-top " src="./images/lake wallenpaupack.jpg" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Lake wallenpaupack</h5>
           <p class="card-text">Lake Wallenpaupack is a reservoir in Northeastern Pennsylvania. After Raystown Lake, it is the second-largest lake contained entirely in Pennsylvania.
@@ -51,9 +65,9 @@ src="https://www.openstreetmap.org/export/embed.html?bbox=-75.34852981567384%2C4
       </div>
 
       <div class="card" style="width: 18rem;">
-        <img class="card-img-top rounded-circle" src="./images/raystown.jpg" alt="Card image cap">
+        <img class="card-img-top" src="./images/raystown.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Raystown</h5>
+          <h5 class="card-title">Raystown Lake</h5>
           <p class="card-text">Raystown Lake is a reservoir in Huntingdon County, Pennsylvania. It is the largest lake that is entirely within Pennsylvania. The original lake was built by the Simpson family of Huntingdon as a hydroelectric project. 
             The current 8,300-acre Raystown Lake was completed in 1973 by the Army Corps of Engineers.</p>
             <button class="btn btn-primary" id="raystown-btn">See on Map</button>
@@ -62,5 +76,8 @@ src="https://www.openstreetmap.org/export/embed.html?bbox=-75.34852981567384%2C4
 </div>
 
 <script src="map.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,0 +1,70 @@
+#currLake{
+    margin-top: 2rem;
+    font-size: large;
+    font-weight: bold;
+}
+
+.card-body{
+    text-align: center;
+    
+   
+}
+.card-title{
+    font-size: 2rem;
+}
+.card-group{
+    justify-content: center;
+}
+.card-text{
+    height: 10rem;
+}
+#currLake{
+    text-align: center;
+    font-size:2rem
+}
+.card{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border: 0;
+    
+}
+.frame{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+    
+}
+.card-img-top{
+    height: 15rem;
+    filter: drop-shadow(15px 5px 30px rgba(0, 0, 0, 0.616));
+    
+  
+    
+}
+
+
+
+@media only screen and (max-width: 560px) {
+.card{
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.card-text{
+    height:auto;
+}
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 570px) {
+    .card{
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    
+   
+    .card-text{
+    height:auto;
+    font-size: 80%;
+    margin-bottom: 2rem;
+    }
+
+}

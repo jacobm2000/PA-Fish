@@ -18,9 +18,9 @@ function newMap(location){
         map.src=src="https://www.openstreetmap.org/export/embed.html?bbox=-75.34852981567384%2C41.36946592211104%2C-75.17686843872072%2C41.46035319887628&amp;layer=mapnik"
     }
     
-    if (location==="Raystown")
+    if (location==="Raystown Lake")
     {
-        txt.innerHTML="Current Lake: Raystown"
+        txt.innerHTML="Current Lake: Raystown Lake"
         map.src=src="https://www.openstreetmap.org/export/embed.html?bbox=-78.2878875732422%2C40.26590441926665%2C-77.94456481933595%2C40.45060475430765&amp;layer=mapnik"
     }
     
@@ -30,4 +30,4 @@ function newMap(location){
 }
 btnErie.addEventListener("click",newMap.bind(location,"Erie"))
 btnWallenpaupack.addEventListener("click",newMap.bind(location,"Wallenpaupack"))
-btnRaystown.addEventListener("click",newMap.bind(location,"Raystown"))
+btnRaystown.addEventListener("click",newMap.bind(location,"Raystown Lake"))
