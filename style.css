@@ -7,7 +7,7 @@
 }
 
 .card-text{
-    height: 10rem;
+    height:10rem
 }
 
 .card-img-top{
@@ -23,9 +23,10 @@ footer{
 }
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 500px) {
     .card-text{
     height:auto;
+    font-size: 80%;
     }
     .card-img-top{
         width: 10rem;
@@ -33,9 +34,11 @@ footer{
   }
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1200px) and (min-width: 501px) {
     .card-text{
-    height:20rem
+    height:15rem;
+    font-size: 80%;
+    margin-bottom: 2rem;
     }
     .card-img-top{
         width: 10rem;

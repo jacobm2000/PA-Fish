@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styleMap.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-primary">
+        <span class="navbar-brand">
+             Game Fish of
+          <img src="./images/PA.png" width="30" height="30" class="d-inline-block align-top" alt="">
+          <a class="text-light ml-5" href="index.html">Fish Info</a>
+          <a class="text-light ml-5" href="">Best Lakes</a>
+        </span>
+      </nav>
+      
+<p id="currLake">lake on Map: Lake Wallenpaupack</p>
+<div class="frame">
+    
+    <iframe id="map" width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+src="https://www.openstreetmap.org/export/embed.html?bbox=-75.34852981567384%2C41.36946592211104%2C-75.17686843872072%2C41.46035319887628&amp;layer=mapnik"
+853%2C-75.21978378295898" style="border: 1px solid black"></iframe><br/>
+
+</div>
+
+<div class="card-group mt-5">
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./images/lake erie.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Lake Erie</h5>
+          <p class="card-text">Lake Erie is the fourth-largest lake by surface area of the five Great Lakes in North America and the eleventh-largest globally. 
+            It is the southernmost, shallowest, and smallest by volume of the Great Lakes </p>
+          <button class="btn btn-primary" id="erie-btn">See on Map</button>
+        </div>
+      </div>
+
+
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./images/lake wallenpaupack.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Lake wallenpaupack</h5>
+          <p class="card-text">Lake Wallenpaupack is a reservoir in Northeastern Pennsylvania. After Raystown Lake, it is the second-largest lake contained entirely in Pennsylvania.
+             It comprises 52 miles of shoreline, with a length of 13 miles and a maximum depth of 60 feet.</p>
+             <button class="btn btn-primary" id="wallenpaupack-btn">See on Map</button>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./images/raystown.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Raystown</h5>
+          <p class="card-text">Raystown Lake is a reservoir in Huntingdon County, Pennsylvania. It is the largest lake that is entirely within Pennsylvania. The original lake was built by the Simpson family of Huntingdon as a hydroelectric project. 
+            The current 8,300-acre Raystown Lake was completed in 1973 by the Army Corps of Engineers.</p>
+            <button class="btn btn-primary" id="raystown-btn">See on Map</button>
+        </div>
+      </div>
+</div>
+
+<script src="map.js"></script>
+</body>
+</html>
