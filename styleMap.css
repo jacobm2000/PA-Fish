@@ -1,3 +1,9 @@
+#currLake{
+    margin-top: 2rem;
+    font-size: large;
+    font-weight: bold;
+}
+
 .card-body{
     text-align: center;
     
@@ -12,6 +18,7 @@
 .card{
     margin-left: 5rem;
     margin-right: 5rem;
+    border: 0;
 }
 .frame{
     display: flex;
@@ -20,4 +27,8 @@
 }
 .card-img-top{
     height: 15rem;
+    filter: drop-shadow(15px 5px 30px rgba(0, 0, 0, 0.616));
+
+  
+    
 }
