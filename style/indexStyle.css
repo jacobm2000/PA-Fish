@@ -23,7 +23,7 @@ footer{
 }
 
 
-@media only screen and (min-width: 300px) {
+@media only screen and (min-width: 200px) {
     .card-text{
     height:auto;
     font-size: 80%;
