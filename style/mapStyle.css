@@ -4,6 +4,10 @@
     font-weight: bold;
 }
 
+.btn{
+    
+    width: 50%;
+}
 .card-body{
     text-align: center;
     
@@ -26,6 +30,7 @@
     margin-left: 5rem;
     margin-right: 5rem;
     border: 0;
+    align-items: center;
     
 }
 .frame{
@@ -44,27 +49,52 @@
 
 
 
-@media only screen and (max-width: 569px) {
-.card{
-    margin-left: 3rem;
-    margin-right: 3rem;
-}
-.card-text{
-    height:auto;
-}
-}
-
-@media only screen and (max-width: 1300px) and (min-width: 570px) {
+@media only screen and (min-width: 200px) {
+    .card-text{
+        height: 15rem;
+    }
     .card{
         margin-left: 3rem;
         margin-right: 3rem;
     }
-    
-   
-    .card-text{
-    height:auto;
-    font-size: 80%;
-    margin-bottom: 2rem;
-    }
 
 }
+
+@media only screen  and (min-width:576px){
+    .card{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .card-text{
+        height: 30rem;
+    }
+
+    
+}
+
+@media only screen  and (min-width:700px){
+    .card-text{
+        height: 25rem;
+    }
+
+    
+}
+
+@media only screen  and (min-width:850px){
+   
+    .card-text{
+        height: 14rem;
+    }
+
+    
+}
+@media only screen  and (min-width:1000px){
+   
+    .card-text{
+        height: 12rem;
+    }
+
+    
+}
+
+

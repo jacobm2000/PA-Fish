@@ -23,7 +23,7 @@ footer{
 }
 
 
-@media only screen and (max-width: 498px) {
+@media only screen and (min-width: 300px) {
     .card-text{
     height:auto;
     font-size: 80%;
@@ -33,25 +33,6 @@ footer{
         height: 5rem;
   }
 }
-@media only screen and (min-width: 499px) and (max-width: 569px)  {
-    .card-text{
-        height:auto;
-        font-size: 80%;
-        margin-bottom: 2rem;
-        }
-        .card-img-top{
-            width: 10rem;
-            height: 5rem;
-      }
-}
-@media only screen and (max-width: 1200px) and (min-width: 570px) {
-    .card-text{
-    height:15rem;
-    font-size: 80%;
-    margin-bottom: 2rem;
-    }
-    .card-img-top{
-        width: 10rem;
-        height: 5rem;
-  }
-}
+
+
+
