@@ -4,10 +4,19 @@ A simple and appealing approach to displaying info about some of the top game fi
  regulations more accessible rather than just having a link to pdf which is not as easy to read especially on mobile devices.
 
 
-## Main Page Screenshots
+## Fish Info Screenshots
 
 ### Desktop
 ![](./screenshots/desktopMain.JPG)
 
 ### Mobile
 ![](./screenshots/mobileMain.JPG)
+
+
+## Fish Locations Screenshots
+
+### Desktop
+![](./screenshots/desktopMap.JPG)
+
+### Mobile
+![](./screenshots/mobileMap.JPG)
