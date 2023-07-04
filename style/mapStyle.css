@@ -20,7 +20,8 @@
     justify-content: center;
 }
 .card-text{
-    height: 10rem;
+    text-align: left;
+    height:auto;
 }
 #currLake{
     text-align: center;
@@ -49,11 +50,10 @@
 
 
 
-@media only screen and (min-width: 200px) {
-    .card-text{
-        height: 15rem;
-    }
+
+@media only screen and (min-width: 180px) {
     .card{
+        
         margin-left: 3rem;
         margin-right: 3rem;
     }
@@ -68,36 +68,10 @@
         margin-left: 1rem;
         margin-right: 1rem;
     }
-    .card-text{
-        height: 30rem;
-    }
-
+  
     
 }
 
-@media only screen  and (min-width:700px){
-    .card-text{
-        height: 25rem;
-    }
 
-    
-}
-
-@media only screen  and (min-width:850px){
-   
-    .card-text{
-        height: 14rem;
-    }
-
-    
-}
-@media only screen  and (min-width:1000px){
-   
-    .card-text{
-        height: 12rem;
-    }
-
-    
-}
 
 
