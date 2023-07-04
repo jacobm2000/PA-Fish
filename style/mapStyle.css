@@ -1,77 +1,82 @@
-#currLake{
+#currLake {
     margin-top: 2rem;
     font-size: large;
     font-weight: bold;
 }
 
-.btn{
-    
+.btn {
+
     width: 50%;
 }
-.card-body{
+
+.card-body {
     text-align: center;
-    
-   
+
+
 }
-.card-title{
+
+.card-title {
     font-size: 2rem;
 }
-.card-group{
+
+.card-group {
     justify-content: center;
 }
-.card-text{
+
+.card-text {
     text-align: left;
-    height:auto;
+    height: auto;
 }
-#currLake{
+
+#currLake {
     text-align: center;
-    font-size:2rem
+    font-size: 2rem
 }
-.card{
+
+.card {
     margin-left: 5rem;
     margin-right: 5rem;
     border: 0;
     align-items: center;
-    
+
 }
-.frame{
+
+.frame {
     display: flex;
     justify-content: center;
     margin-bottom: 5rem;
-    
+
 }
-.card-img-top{
+
+.card-img-top {
     height: 15rem;
     filter: drop-shadow(15px 5px 30px rgba(0, 0, 0, 0.616));
-    
-  
-    
+
+
+
 }
 
 
 
 
 @media only screen and (min-width: 180px) {
-    .card{
-        
+    .card {
+
         margin-left: 3rem;
         margin-right: 3rem;
     }
-    body{
-        margin-bottom: 
-        2rem;
+
+    body {
+        margin-bottom:
+            2rem;
     }
 }
 
-@media only screen  and (min-width:576px){
-    .card{
+@media only screen and (min-width:576px) {
+    .card {
         margin-left: 1rem;
         margin-right: 1rem;
     }
-  
-    
+
+
 }
-
-
-
-

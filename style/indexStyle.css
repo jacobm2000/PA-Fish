@@ -6,7 +6,7 @@
 }
 
 .card-text{
-height:8rem
+height:auto;
 }
 
 .card-img-top{
@@ -24,7 +24,6 @@ footer{
 
 @media only screen and (min-width: 200px) {
     .card-text{
-    height:auto;
     font-size: 80%;
     }
     .card-img-top{
