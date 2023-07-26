@@ -50,7 +50,7 @@
 
 .card-img-top {
     height: 15rem;
-    filter: drop-shadow(15px 5px 30px rgba(0, 0, 0, 0.616));
+    filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.616));
 
 
 
